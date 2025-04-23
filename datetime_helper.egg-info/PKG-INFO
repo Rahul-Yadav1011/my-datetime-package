@@ -1,0 +1,84 @@
+Metadata-Version: 2.4
+Name: datetime_helper
+Version: 0.2.1
+Summary: A comprehensive datetime utility package for Python with advanced date/time operations
+Home-page: https://github.com/yourusername/datetime-helper
+Author: Rahul
+Author-email: rahul@example.com
+Project-URL: Bug Reports, https://github.com/yourusername/datetime-helper/issues
+Project-URL: Source, https://github.com/yourusername/datetime-helper
+Keywords: datetime,timezone,date,time,utilities
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytz>=2023.3
+Requires-Dist: python-dateutil>=2.8.2
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# My DateTime Package
+
+A comprehensive Python package for datetime operations and utilities.
+
+## Installation
+
+```bash
+pip install datetime_helper
+```
+
+## Features
+
+- Date and time manipulation
+- Timezone handling
+- Date formatting and parsing
+- Date arithmetic operations
+- Holiday calculations
+- Business day calculations
+
+## Usage
+
+```python
+from my_datetime_package import DateTimeUtils
+
+# Create a DateTimeUtils instance
+dt = DateTimeUtils()
+
+# Get current date and time
+current = dt.now()
+
+# Format date
+formatted = dt.format_date(current, "YYYY-MM-DD")
+
+# Add days to a date
+future_date = dt.add_days(current, 5)
+
+# Check if a date is a business day
+is_business = dt.is_business_day(current)
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 
