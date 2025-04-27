@@ -1,4 +1,4 @@
-from datetime_helper import DateTimeUtils
+from pychronix import DateTimeUtils
 from datetime import datetime, timedelta
 import pytz
 

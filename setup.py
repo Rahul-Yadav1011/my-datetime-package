@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="datetime_helper",
+    name="pychronix",
     version="0.2.1",
     author="Rahul",
     author_email="rahul@example.com",
-    description="A comprehensive datetime utility package for Python with advanced date/time operations",
+    description="A powerful Python package for advanced datetime operations and AI-powered time analysis",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/datetime-helper",
+    url="https://github.com/yourusername/pychronix",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -33,9 +33,9 @@ setup(
         "pytz>=2023.3",
         "python-dateutil>=2.8.2",
     ],
-    keywords="datetime, timezone, date, time, utilities",
+    keywords="datetime, timezone, date, time, utilities, ai, ml, time analysis",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/datetime-helper/issues",
-        "Source": "https://github.com/yourusername/datetime-helper",
+        "Bug Reports": "https://github.com/yourusername/pychronix/issues",
+        "Source": "https://github.com/yourusername/pychronix",
     },
 ) 
